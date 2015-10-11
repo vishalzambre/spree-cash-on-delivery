@@ -7,9 +7,9 @@ Gem::Specification.new do |s|
   s.description = 'In countries like India, one of the popular payment model is to collect cash while delivering goods. This extension adds COD payment method to Spree'
   s.required_ruby_version = '>= 1.9.3'
 
-  s.author            = 'Chandramohan Rangaswamy'
-  s.email             = 'chandru@simplelife.in'
-  s.homepage          = 'http://www.simplelife.in/'
+  s.authors = ['Vishal Zambre']
+  s.email = 'v.zambre@gmail.com'
+  s.homepage  = 'https://github.com/vishalzambre/spree-cash-on-delivery/'
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
